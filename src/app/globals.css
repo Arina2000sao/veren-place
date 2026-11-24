@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-title: #e0e0e0;
+  --color-subtitle: #a0a0a0;
+  --color-menu: #1a1a1a;
+  --color-gold: #d4af37;
+}
+
+body {
+  background: linear-gradient(135deg, #2b2b2b 0%, #1a1a1a 100%);
+  color: var(--color-title);
+  font-family: "Avenir Next", "Avenir", "Avenir Next LT Pro", var(--font-nunito), "Helvetica Neue", Arial, sans-serif;
+}
